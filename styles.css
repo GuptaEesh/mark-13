@@ -56,12 +56,15 @@ ul{
 }
 
 .footer {
-    margin-top: 2rem;
-    padding: 1rem;
-    text-align: center;
-    bottom: 0;
+   
     background-color: var(--most-used);
+
     position: fixed;
+    padding: 1rem 1rem 0 1rem;
+    bottom: 0;
+    
+    /* Height of the footer*/ 
+    height:15vh;
 }
 li{
     display: inline;
