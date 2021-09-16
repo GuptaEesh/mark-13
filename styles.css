@@ -61,7 +61,7 @@ ul{
     text-align: center;
     bottom: 0;
     background-color: var(--most-used);
-    position: relative;
+    position: fixed;
 }
 li{
     display: inline;
