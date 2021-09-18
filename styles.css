@@ -3,14 +3,15 @@
     --primary-color:#E27D60;
     --secondary-color:#B85DCB;
     --tertiary-color:#41B3A3;
-    --most-used:beige;
+    --most-used: lightyellow ;
 
 }
 body{
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
-    background-color: var(--tertiary-color);
+    /* background-color: var(--tertiary-color); */
+    background-image: linear-gradient(to right, rgba(80,179,250,0.4),rgba(80,179,250,1));
 }
 h1
 {

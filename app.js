@@ -35,6 +35,9 @@ function clickHandlerPrev(){
 
         output.innerText = "The last palindrome date was " + prevDate.day+"-"+prevDate.month+"-"+prevDate.year +". It was missed by "+missDayPrev+" days.";
     }
+    else{
+        alert("Please put in your DOB");
+    }
 }
 function clickHandlerNext() {
     wait[0].style.display="none";
@@ -68,6 +71,9 @@ function clickHandlerNext() {
 
         output.innerText = "The next nearest palindrome date is " + nextDate.day+"-"+nextDate.month+"-"+nextDate.year+". It will come up next in "+missDayNext+" days.";
     }
+    else{
+        alert("Please put in your DOB");
+    }
 }
 
 function clickHandler() {
@@ -93,6 +99,9 @@ function clickHandler() {
             output.innerText = "Maybe your next birth will surely be a palindrome😄";
 
 
+    }
+    else{
+        alert("Please put in your DOB");
     }
 }
 function getPrev(date) {
