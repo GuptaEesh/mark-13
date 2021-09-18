@@ -192,18 +192,18 @@ function reverseIt(str) {
 }
 function clickHandlerT(){
     wait[0].style.display="initial";
-    wait[1].style.display="initial";
+    wait[1].style.backgroundImage="url('https://media.giphy.com/media/l3vR2zXDNyxQeFAl2/giphy-downsized-large.gif?cid=ecf05e47t8t2wogsbmhl39kwufwng7pwye8w9imfh8t638j5&rid=giphy-downsized-large.gif&ct=g')";
     setTimeout(clickHandler,2000);
     
 }
 function clickHandlerNextT(){
     wait[0].style.display="initial";
-    wait[1].style.display="initial";
+    wait[1].style.backgroundImage="url('https://media.giphy.com/media/l3vR2zXDNyxQeFAl2/giphy-downsized-large.gif?cid=ecf05e47t8t2wogsbmhl39kwufwng7pwye8w9imfh8t638j5&rid=giphy-downsized-large.gif&ct=g')";
     setTimeout(clickHandlerNext,2000);
 }
 function clickHandlerPrevT(){
     wait[0].style.display="initial";
-    wait[1].style.display="initial";
+    wait[1].style.backgroundImage="url('https://media.giphy.com/media/l3vR2zXDNyxQeFAl2/giphy-downsized-large.gif?cid=ecf05e47t8t2wogsbmhl39kwufwng7pwye8w9imfh8t638j5&rid=giphy-downsized-large.gif&ct=g')";
     setTimeout(clickHandlerPrev,2000);
 }
 btnSelector.addEventListener("click",clickHandlerT );

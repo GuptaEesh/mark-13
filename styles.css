@@ -70,3 +70,8 @@ li{
     display: inline;
     padding: 1rem;
 }
+#wait{
+   margin: 5px solid black;
+   height: 5vh;
+   width: 80%;
+}
