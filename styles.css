@@ -41,6 +41,7 @@ button{
     background-color: var(--secondary-color);
     font-size: large;
     font-weight: 600;
+    border-radius: 0.5rem;
 }
 #output{
     font-size: large;
